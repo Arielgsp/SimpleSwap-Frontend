@@ -1,0 +1,30 @@
+{
+  "name": "simpleswap-tp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.9",
+    "@nomicfoundation/hardhat-toolbox": "^6.0.0",
+    "@openzeppelin/contracts": "^5.3.0",
+    "ethers": "^6.15.0",
+    "hardhat": "^2.25.0",
+    "hardhat-coverage": "^0.9.19"
+  },
+  "dependencies": {
+    "@metamask/providers": "^22.1.0"
+  }
+ 
+}
