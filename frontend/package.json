@@ -9,9 +9,8 @@
     "dev": "vite",
     "build": "vite build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "preview": "vite preview",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d ../dist -b gh-pages",
+    "preview": "vite preview"
   },
   "keywords": [],
   "author": "",
