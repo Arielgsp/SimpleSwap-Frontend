@@ -4,24 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SimpleSwap</title>
-    <!-- ethers.js desde CDN -->
-    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"></script>
-
-    <link rel="stylesheet" href="./Frontend/src/style.css" />
+    <!-- ethers.js desde CDN-->
+    <script src="https://cdn.ethers.io/lib/ethers-5.7.2.umd.min.js"></script>
+    <!-- Alternativa si falla el CDN anterior -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/5.7.2/ethers.umd.min.js"></script>
   </head>
   <body>
-    <div id="app">
-      <h1>SimpleSwap</h1>
-      <button id="connectWallet">Conectar Wallet</button>
-      <div id="swapInterface" style="display: none">
-        <h2>Intercambiar Tokens</h2>
-        <input type="number" id="amount" placeholder="Cantidad" />
-        <button id="swapAtoB">Token A → Token B</button>
-        <button id="swapBtoA">Token B → Token A</button>
-        <p id="price"></p>
-      </div>
-    </div>
+    <h1>SimpleSwap</h1>
+    <button id="connectWallet">Conectar Wallet</button>
 
     <script src="./Frontend/src/main.jsx"></script>
+
+    <!-- Verificación de carga -->
+    <script>
+      console.log("¿ethers cargado?", typeof ethers !== "undefined"); // Debe imprimir "true"
+    </script>
   </body>
 </html>
