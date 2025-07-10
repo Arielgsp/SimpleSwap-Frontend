@@ -6,10 +6,8 @@
   "directories": {
     "test": "test"
   },
+  "homepage": "https://Arielgsp.github.io/SimpleSwap-Frontend",
   "scripts": {
-    "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -26,5 +24,4 @@
   "dependencies": {
     "@metamask/providers": "^22.1.0"
   }
- 
 }
